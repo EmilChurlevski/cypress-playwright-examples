@@ -20,6 +20,7 @@ This repository provides various examples and best practices for setting up and 
 - Setup instructions for both frameworks.
 - Configuration files for easy integration.
 - Sample tests to help you get started quickly.
+- For the sake of selector reusability, i used enums for the selectors to be able to use them in both cypress and playwright. Normally the page object model is recommended.
 
 ## Installation
 
