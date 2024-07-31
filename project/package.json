@@ -1,0 +1,22 @@
+{
+  "name": "example-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run:playwright:tests": "npx playwright test --workers=1",
+    "run:cypress:tests": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "playwright"
+  ],
+  "author": "Emil Churlevski",
+  "license": "ISC",
+  "description": "A project showing playwright and cypress examples",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12",
+    "cypress": "^13.13.1",
+    "typescript": "^5.5.4"
+  }
+}
