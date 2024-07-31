@@ -80,8 +80,6 @@ This will open the Playwright Test Runner where you can select and run the tests
       ├──── package-lock.json
       ├──── playwright.config.ts      # Playwright config file   
       ├──── tsconfig.json
-      ├── .gitignore
-      ├── package.json
       ├── README.md
       └── cypress-playwright-examples.iml
 
