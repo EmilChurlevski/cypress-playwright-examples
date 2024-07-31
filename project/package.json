@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "run:playwright:tests": "npx playwright test --workers=1",
-    "run:cypress:tests": "npx cypress run"
+    "run:cypress:tests": "npx cypress run --browser=chrome"
   },
   "keywords": [
     "cypress",

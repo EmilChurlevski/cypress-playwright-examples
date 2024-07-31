@@ -1,7 +1,7 @@
 export enum ButtonSelectors {
   DB_CLICK_BTN = 'div button#doubleClickBtn',
   DB_CLICK_MSG = 'div p#doubleClickMessage',
-  NORMAL_CLICK_BTN = 'div button#XwSsn',
+  NORMAL_CLICK_BTN = 'button.btn',
   NORMAL_CLICK_MSG = 'div p#dynamicClickMessage',
   RIGHT_CLICK_BTN = 'div button#rightClickBtn',
   RIGHT_CLICK_MSG = 'div p#rightClickMessage'

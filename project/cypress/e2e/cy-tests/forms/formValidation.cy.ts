@@ -23,7 +23,7 @@ describe('Form validation tests', () => {
     validateWith(student, 'minReq');
   });
 
-  it.only('should successfully submit the form with complete data', () => {
+  it('should successfully submit the form with complete data', () => {
     const student: Student = FormHelpers.getRandomStudentFullData();
     CyFormHelper.fillFormAllFields(student);
     validateWith(student, 'fullReq');

@@ -50,6 +50,6 @@ test('clicks test', async ({ page }) => {
   await expect(page.locator(ButtonSelectors.RIGHT_CLICK_MSG)).toContainText('You have done a right click');
 
   // normal click
-  await page.locator(ButtonSelectors.NORMAL_CLICK_BTN).click();
+  await page.locator(ButtonSelectors.NORMAL_CLICK_BTN).last().click();
   await expect(page.locator(ButtonSelectors.NORMAL_CLICK_MSG)).toContainText('You have done a dynamic click');
 });

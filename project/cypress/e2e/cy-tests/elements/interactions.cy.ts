@@ -65,6 +65,7 @@ describe('Interactions', () => {
 
     // normal click
     cy.get(ButtonSelectors.NORMAL_CLICK_BTN)
+      .last()
       .click();
     cy.contains(ButtonSelectors.NORMAL_CLICK_MSG, 'You have done a dynamic click')
       .should('be.visible');

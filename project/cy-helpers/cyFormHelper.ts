@@ -11,7 +11,8 @@ export class CyFormHelper {
   public static addSubjects(student: Student): void {
     student.subjects.forEach(subject => {
       cy.get(FormSelectors.SUBJECTS_INPUT)
-        .type(subject + '{enter}', { delay: 0 })
+        .type(subject, { delay: 0 })
+        .type('{enter}');
     });
   }
 
