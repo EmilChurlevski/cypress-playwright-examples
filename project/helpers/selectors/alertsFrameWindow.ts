@@ -8,7 +8,9 @@ export enum AlertSelectors {
 }
 
 export enum FrameSelectors {
-
+  FRAME_1 = 'div iframe#frame1',
+  FRAME_2 = 'div iframe#frame2',
+  FRAME_HEADING = 'h1#sampleHeading'
 }
 
 export enum WindowsSelectors {

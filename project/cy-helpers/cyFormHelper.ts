@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 import { Student } from '../helpers/models/student';
 import { FormSelectors } from '../helpers/selectors/forms';
 import { FormHelpers } from '../helpers/functions/formHelpers';
