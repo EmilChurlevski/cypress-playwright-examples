@@ -37,55 +37,55 @@ This repository provides various examples and best practices for setting up and 
    cd cypress-playwright-examples/project
    ```
 2. Install dependencies:
-```bash
-  npm install
-  // to install the playwright browsers
-  npx playwright install
-```
+   ```bash
+     npm install
+     // to install the playwright browsers
+     npx playwright install
+   ```
 
 ## Usage
 
 ### Running Cypress Tests
 
 To run the Cypress tests, use the following command:
-```bash
-    npx cypress open
-```
+   ```bash
+       npx cypress open
+   ```
 This will open the Cypress Test Runner where you can select and run the tests.
 
 ### Running Playwright Tests
 
 To execute the Playwright tests, use:
-```bash
-    npx playwright test --ui
-```
+   ```bash
+       npx playwright test --ui
+   ```
 This will open the Playwright Test Runner where you can select and run the tests.
 
 ## Project Structure
-```bash
-cypress-playwright-examples/
-├── project/
-├──── cy-helpers/               # Classes meant to use in Cypress tests
-├──── cypress/                  # Cypress main folder
-│   ├──── e2e/                  # Directory for end-to-end tests
-│   │     ├── cy-tests/         # Cypress-specific tests
-│   │     └── pw-tests/         # Playwright-specific tests
-│   ├──── fixtures/             # Fixtures for Cypress and Playwright
-│   └──── support/              # Main support folder for Cypress
-├──── helpers/                  # TypeScript functions, selectors, and models
-├──── pw-helpers/               # Playwright classes for Playwright tests
-├──── .gitignore
-├──── cypress.config.ts         # Cypress config file
-├──── package.json 
-├──── package-lock.json
-├──── playwright.config.ts      # Playwright config file
-├──── tsconfig.json
-├── .gitignore
-├── package.json
-├── README.md
-└── cypress-playwright-examples.iml
+   ```bash
+      cypress-playwright-examples/
+      ├── project/
+      ├──── cy-helpers/               # Classes meant to use in Cypress tests
+      ├──── cypress/                  # Cypress main folder
+      │   ├──── e2e/                  # Directory for end-to-end tests
+      │   │     ├── cy-tests/         # Cypress-specific tests
+      │   │     └── pw-tests/         # Playwright-specific tests
+      │   ├──── fixtures/             # Fixtures for Cypress and Playwright
+      │   └──── support/              # Main support folder for Cypress
+      ├──── helpers/                  # TypeScript functions, selectors, and models
+      ├──── pw-helpers/               # Playwright classes for Playwright tests
+      ├──── .gitignore
+      ├──── cypress.config.ts         # Cypress config file
+      ├──── package.json 
+      ├──── package-lock.json
+      ├──── playwright.config.ts      # Playwright config file   
+      ├──── tsconfig.json
+      ├── .gitignore
+      ├── package.json
+      ├── README.md
+      └── cypress-playwright-examples.iml
 
-```
+   ```
 
 ## Contributing
 
