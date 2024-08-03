@@ -11,7 +11,7 @@
     "playwright"
   ],
   "author": "Emil Churlevski",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A project showing playwright and cypress examples",
   "devDependencies": {
     "@playwright/test": "^1.45.3",
