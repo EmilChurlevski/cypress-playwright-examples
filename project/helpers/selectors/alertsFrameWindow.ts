@@ -13,6 +13,17 @@ export enum FrameSelectors {
   FRAME_HEADING = 'h1#sampleHeading'
 }
 
+export enum ModalSelectors {
+  LARGE_MODAL_BUTTON = 'button#showLargeModal',
+  MODAL_BODY = 'div.modal-body',
+  MODAL_CLOSE_BUTTON = 'div.modal-footer button',
+  MODAL_CONTENT = 'div.modal-content',
+  MODAL_FOOTER = 'div.modal-footer',
+  MODAL_HEADER = 'div.modal-header',
+  MODAL_X_BUTTON = 'div.modal-header button',
+  SMALL_MODAL_BUTTON = 'button#showSmallModal'
+}
+
 export enum WindowsSelectors {
   NEW_WINDOW_BUTTON = 'button#windowButton',
   NEW_WINDOW_MSG_BUTTON = 'button#messageWindowButton',
